@@ -1,0 +1,12 @@
+body{margin:0;font-family:system-ui;background:#0a0a0a;color:white}
+header{display:flex;justify-content:space-between;padding:15px;background:#000}
+.hero{text-align:center;padding:20px}
+input{padding:12px;width:85%;border-radius:12px;border:none}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:15px;padding:15px}
+.card{background:#111;border-radius:14px;overflow:hidden;cursor:pointer}
+.card img{width:100%;height:120px;object-fit:cover}
+.card h3{padding:10px;font-size:15px}
+.specs, .dyno{padding:15px}
+button{padding:10px;border:none;border-radius:10px;background:var(--accent);color:white;cursor:pointer}
+.light{background:#fff;color:#000}
+:root{--accent:red}
