@@ -1,3 +1,5 @@
+// data.js — TorqueVault V3 full 150-car dataset
+
 const cars = [
 { id:1, brand:"Toyota", model:"Supra MK4", year:1994, horsepower:320, torque:315, zeroToSixty:4.6, price:85000, img:"https://source.unsplash.com/featured/?supra,mk4", dyno:[{rpm:1000,hp:50,torque:90},{rpm:6000,hp:320,torque:315}], sound:"engine_sounds/supra_mk4_1994.mp3" },
 { id:2, brand:"Toyota", model:"Supra MK5", year:2020, horsepower:335, torque:365, zeroToSixty:4.1, price:50000, img:"https://source.unsplash.com/featured/?supra,2020", dyno:[{rpm:1000,hp:60,torque:100},{rpm:6000,hp:335,torque:365}], sound:"engine_sounds/supra_mk5_2020.mp3" },
