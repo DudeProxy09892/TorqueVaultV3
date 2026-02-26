@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TorqueVault V3</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="manifest" href="manifest.json">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="apple-touch-icon" href="icon.png">
+</head>
+<body class="dark">
+
+<header>
+<h1>TorqueVault</h1>
+<div>
+<button id="themeToggle">🌙</button>
+<button onclick="setAccent('red')">🔴</button>
+<button onclick="setAccent('green')">🟢</button>
+</div>
+</header>
+
+<section class="hero">
+<h2>Unlock Performance</h2>
+<input id="search" placeholder="Search cars...">
+</section>
+
+<main id="app"></main>
+
+<script src="chart.min.js"></script>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
